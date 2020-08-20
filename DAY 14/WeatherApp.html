@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Indicator</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+    </style>
+    <script src="WeatherApp.js"></script>
+</head>
+
+<body>
+
+    <div style=" background-color:burlywood">
+        <div style="padding: 10px;">
+            <input type="text" id="id1">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div id="parent">
+
+            <div style="padding: 10px;font-size:20px">
+                <div>Mumbai,Maharashta</div>
+                <div>Thursday</div>
+                <div>Haze</div>
+            </div>
+            <div style="display: flex;padding:10px">
+                <div style="font-size: 50px;">27</div>
+                <div style="margin-left: 80px;font-size:20px">
+                    <div>Humidity</div>
+                    <div>Wind</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
